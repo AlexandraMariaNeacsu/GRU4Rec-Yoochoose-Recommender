@@ -27,5 +27,5 @@ The model was trained using the BPR-max loss function and Adagrad optimizer. Eva
 > **Performance vs. Optimization Note:** 
 > Despite implementing aggressive memory optimization techniques (such as `int32` downcasting and filtering) to process the entire dataset in a constrained environment, the model's accuracy remained nearly identical to the benchmarks reported in the [official repository](https://github.com/hidasib/GRU4Rec_PyTorch_Official) (Official Recall@20: 0.6789 | Official MRR@20: 0.3024). This confirms that the architectural optimizations successfully reduced memory footprint without sacrificing predictive power.
 
-## 📁 Repository Structure
+## Repository Structure
 * `GRU4Rec_Yoochoose_Pipeline.ipynb`: The complete end-to-end Jupyter Notebook containing environment setup, bug-fixing patches, data processing, training execution, and evaluation.
